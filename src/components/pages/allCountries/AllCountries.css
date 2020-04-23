@@ -1,0 +1,26 @@
+.AllCountries{
+    /* border: 1px solid red; */
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto 50px auto;
+}
+
+.AllCountries > div{
+    width: 31%;
+    /* border: 1px solid orange; */
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.AllCountries > div.AllCases{
+    background-color: lightgray;
+}
+
+.AllCountries > div.AllDeaths{
+    background-color: red;
+}
+.AllCountries > div.AllRecovered{
+    background-color: green;
+}
